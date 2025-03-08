@@ -32,5 +32,4 @@ bin/
 *.iml
 out/
 target/
-
-
+.gitignore
