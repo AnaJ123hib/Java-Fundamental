@@ -2,10 +2,13 @@ Un  profesor  aplico una  prueba  a los  30  alumnos  que  tiene matriculados  e
 A  cada alumno se le asignó un tema.
 De cada alumno se conoce la siguiente información:
  El tema que le fue asignado (1, 2 o 3).  El puntaje obtenido (debe ser un valor entre 0 y 50).
-Se le solicita que escriba un programa en C++ que procese la información de los alumnos para lo cual se le pide que implemente:
-a) Una función GenerarMostrarDatos, que permita generar aleatoriamente los datos de los 30 alumnos en un vector VAlumnos y los muestre.
-b) Una función Lista_EncimadelPromedio, que emita un listado en donde se muestre el tema  asignado  y  el  puntaje obtenido de aquellos
-alumnos  que  cuyo puntaje  está por encima del promedio general de la sección.
+Se le solicita que escriba un programa en C++ que procese la información de los alumnos para lo cual se le pide que
+implemente:
+a) Una función GenerarMostrarDatos, que permita generar aleatoriamente los datos de los 30 alumnos en un vector VAlumnos
+ y los muestre.
+b) Una función Lista_EncimadelPromedio, que emita un listado en donde se muestre el tema  asignado  y  el  puntaje
+obtenido de aquellos alumnos  que  cuyo puntaje  está por encima del promedio general de la sección.
 c) Una función Devuelve_mayor, que recibe el vector VAlumnos y retorne el número de alumnos que obtuvieron el mayor puntaje.
-d) La función principal main que haciendo uso de las funciones anteriores permita generar e  imprimir  los  datos  generados,  imprima
-los  alumnos  con  puntaje  por  encima  del promedio y determine y muestre el número de alumnos que tienen el mayor puntaje
+d) La función principal main que haciendo uso de las funciones anteriores permita generar e  imprimir  los  datos
+generados,  imprima los  alumnos  con  puntaje  por  encima  del promedio y determine y muestre el número de alumnos
+que tienen el mayor puntaje
