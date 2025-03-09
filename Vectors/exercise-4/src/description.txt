@@ -1,0 +1,20 @@
+ El gerente de la empresa Paltas SAC está interesado en analizar de manera comparativa las ventas mensuales de
+ los dos últimos años (2019 y 2020).
+ Conocedor del prestigio de los estudiantes de Programación  I de la UPC, le ha encargado a usted  la  tarea  de
+ generar  dos  gráficos  de  barra  en  paralelo,  a partir  de  la  información  de  2 Arreglos de 12 elementos,
+ que guarda la información de las ventas del producto K en los 24 meses a analizar
+
+ Cada barra, del gráfico de barras, será una secuencia de tantos caracteres 8#9 (numeral), como ventas haya hecho
+ en dicho mes de dicho año. Por ejemplo, en el mes de Marzo, la empresa vendió <1=, en miles de unidades, del
+ producto K; por lo tanto, se graficará 1 carácter 8#9 para representar el nivel de ventas de ese mes, seguido
+ del número 1, encerrado entre paréntesis.
+ Ejemplo: #####(5)
+
+ Se le solicita que escriba un programa en Java que realice lo solicitado, para lo cual se le pide que implemente:
+  Una  función  GeneraVectores:  Recibe  2  vectores  y  genera  aleatoriamente  sus  ventas mensuales con valores
+ enteros entre 0 y 30.
+  Una función  ImprimeBarras: Recibe 1 vector, el año, incluyendo el título de <Ventas del año XXXX=.
+  Una  función  MayorVenta:  Recibe 2  vectores  e  imprime  en  función  a  los  datos  de  los vectores en qué año
+ se realizó la mayor venta.
+  La función principal que llame a las funciones anteriores de manera lógica para mostrar en la pantalla
+ los gráficos.
