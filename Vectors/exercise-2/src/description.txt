@@ -1,0 +1,39 @@
+
+ Una empresa de telefonía ha decidido realizar una encuesta a sus clientes,
+  con el fin de medir  el  nivel  de  satisfacción  por  el  servicio  brindado.
+  Por  esta  razón  ha  decidido encuestar a N clientes (máximo 100).
+  La encuesta consistió en preguntarle a cada uno de ellos lo siguiente:
+
+   ¿Desde cuándo es cliente?
+  Resspuestas posibles:
+  A. Menos de un año
+  B. Entre 1 y 3 años
+  C. Entre 4 y 8 años
+  D. Más de 8 años
+
+   ¿Cuál es su grado de satisfacción con el servicio brindado? Respuestas posibles:
+  A. Excelente
+  B. Muy bueno
+  C. Bueno
+  D. Regular
+  E. Malo
+
+   Edad del cliente (entre 18 y 60 años)
+
+  La empresa de telefonía les ha solicitado a los alumnos del curso de Programación 1 de la
+  UPC que elaboren un programa en Java, que procese la información de los clientes
+  encuestados para lo cual se le pide:
+
+   Implementar  la  función  Generar_y_Mostrar,
+  que  permita  generar  de  forma aleatoria e imprimir los datos de los N clientes
+  encuestados que se almacenan en el vector VEncuestas.
+  Implementar la  función  Porcentaje_4y8_malo,  que  determine  el  porcentaje  del total
+   de encuestados, son clientes entre 4  y 8 años y su  grado de satisfacción es malo.
+  Implementar la función Promedio_edad, que determine el promedio de edad de los clientes
+   que consideran que el servicio brindado es excelente.
+  Implementar la función Listado_ordenado, que imprima el listado de los clientes
+   encuestados ordenado ascendentemente por la edad.
+  Implementar la  función  principal  main  que  solicite el  ingreso  del  valor  de
+ N  y luego realice el llamado correcto de las funciones anteriores.
+
+ Recuerde que la aplicación deberá validar el ingreso de datos.
