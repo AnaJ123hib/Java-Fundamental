@@ -1,0 +1,30 @@
+El  Gerente  de  una  importante  empresa  de  venta  de  acabados  para  la  construcción
+necesita llevar un control sobre los gastos de agua, luz y teléfono que tiene cada una las
+tiendas ubicadas en todo el país.
+
+De cada tienda, que  en total son 25,  se debe almacenar la siguiente información: su código,
+el consumo de agua en m3, el consumo de luz en Kw y el número de minutos en llamadas realizadas
+desde el teléfono ubicado en la tienda.
+
+Se sabe que la tarifa del agua es de 3.35 soles por m3, de la luz es de 0.45 soles
+por Kw y la del teléfono es de 0.15 soles por minuto.
+
+Para ello se le pide implementar en Java, un programa que permita:
+ Generar y mostrar un vector de 25 elementos que contenga los códigos, consumo de agua,
+consumo de luz y número de minutos en llamadas realizadas de las tiendas.
+Se sabe que los códigos de las tiendas empezarán en el valor 1000.
+El consumo de agua será un valor aleatorio entre 5 y 200.
+El consumo de luz es un valor aleatorio entre 10 y 300.
+El número de minutos en llamadas será un valor aleatorio entre 30 y 500.
+
+ Determinar  y  mostrar  el  código  o  códigos  de  las  tiendas  que  tienen  el  menor
+número de minutos consumidos en llamadas.
+
+ Determinar y mostrar para cada tienda el monto total de gastos por consumo de agua,
+luz y teléfono. El monto total se calcula como: ∑consumo * tarifa.
+
+ Determinar y mostrar el código o códigos de las tiendas que tienen el mayor monto total
+de gastos.
+
+ Determinar y mostrar el consumo promedio de agua, consumo promedio de luz y promedio de
+minutos consumidos en  llamadas.
