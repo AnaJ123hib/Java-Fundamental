@@ -1,0 +1,13 @@
+The Ministries of Education and Health wish to keep statistics on the weights of students
+in a state school according to the following ranges:
+
+• Students under 40 kg.
+• Students between 40 and 50 kg.
+• Students over 50 and under 60 kg.
+• Students over or equal to 60 kg.
+
+Taking into account that the state school does not have more than 50 students, create an
+application in Java that, first, receives the number of students in the classroom as data
+and then allows the registration of their weight for each student.
+The application should show as a result the number of students there are for each of the
+ranges for which statistics are desired.
