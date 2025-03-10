@@ -35,7 +35,7 @@ public class Main {
                     more60++;
             }
             catch (Exception e){
-                System.out.println("It must be a integer number");
+                System.out.println("It must be a integer number!");
                 scanner.nextLine();
                 i--;
             }
