@@ -1,0 +1,30 @@
+Una pizzería desea procesar la información de los pedidos que ella recibe.
+De cada pedido se registra:
+
+código del pedido 4 dígitos (0 para finalizar el proceso)
+tipo de pizza 1:grande ; 2: familiar; 3: súper familiar
+tipo de pedido D: delivery; M:
+mostrador tiempo de entrega del pedido (en minutos) entero > 0
+
+Además se sabe que el costo de las pizzas es el siguiente:
+
+Tipo de pizza Costo
+Grande 50.00
+Familiar 60.00
+Súper familiar 68.00
+
+Se sabe además que la pizzería tiene la política de que si el cliente no recibe su pedido en
+20 minutos (mostrador) o 30 minutos (delivery) este es gratis.
+Conocida toda esta información el administrador de la pizzería le solicita a usted que realice
+ un programa en lenguaje Java que registre para cada pedido realizado durante el último
+ mes su código, el tipo de pizza, el tipo de pedido y el tiempo de entrega de la misma y
+ determine y muestre el importe a pagar o si este es gratis.  No se conoce el número exacto
+ de pedidos pero se sabe que el fin de datos será cuando se ingrese como código el valor de
+ cero.  Con los datos anteriormente solicitados de cada pedido, el programa debe realizar
+ cómo reporte para la pizzería lo siguiente:
+
+  ¿Cuál fue el importe total recaudado que tuvo la pizzería el último mes?
+  La cantidad de pedidos que se entregaron gratis.
+
+
+ Recuerde que la aplicación deberá realizar todas las validaciones necesarias.
